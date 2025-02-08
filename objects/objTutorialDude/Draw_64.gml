@@ -1,0 +1,5 @@
+if place_meeting(x, y, objPlayer) { chatPos = lerp(chatPos, 32, 0.1); }
+else { chatPos = lerp(chatPos, -150, 0.1); }
+
+draw_sprite(sprDialogueBox, 0, 96, chatPos);
+draw_text(112, chatPos+16, dialogue);

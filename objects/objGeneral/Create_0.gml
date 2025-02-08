@@ -4,26 +4,8 @@ global.movement = true;
 
 pauseMovement();
 
-/*
-if !variable_global_exists("respawn")
-{
-	global.respawn = false;
-	global.resRoom = -1;
-	global.resX = 0;
-	global.resY = 0;
-}
+room_goto(rmStart);
+objPlayer.x = 128;
+objPlayer.y = 256;
 
-
-if global.respawn
-{
-	room_goto(global.resRoom);
-	objPlayer.x = global.resX;
-	objPlayer.y = global.resY;
-}
-else
-{
-	room_goto(rmStart);
-	objPlayer.x = 122;
-	objPlayer.y = 295;
-}
-*/
+draw_set_font(fntMain);
