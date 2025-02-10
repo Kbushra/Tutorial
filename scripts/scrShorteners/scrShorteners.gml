@@ -22,5 +22,16 @@ function pauseMovement()
 	global.l = false;
 	global.r = false;
 	global.u = false;
-	global.d = false;
+	//global.d = false;
+}
+
+function camFlash(_color, _amount, _hold, _target)
+{
+	with(instance_create_layer(0, 0, "Effects", objTransition)) {
+		
+		amount = _amount;
+		hold = _hold;
+		target = _target;
+		image_blend = _color;
+	}
 }

@@ -1,0 +1,1 @@
+if !instance_exists(objTransition) { camFlash(c_black, 0.05, 0, id); }
