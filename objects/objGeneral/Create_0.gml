@@ -1,6 +1,7 @@
 random_get_seed();
 
 global.movement = true;
+global.state = 0;
 
 pauseMovement();
 
