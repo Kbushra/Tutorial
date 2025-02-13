@@ -3,7 +3,7 @@ hMovement = 0;
 
 grounded = false;
 
-stuck = false;
-
 dir = "R";
 state = "I";
+
+deathTimer = 30;

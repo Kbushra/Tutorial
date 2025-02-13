@@ -1,5 +1,4 @@
-//global.respawn = keyboard_check_pressed(ord("R"));
-//if global.respawn && room != rmEndPlat { game_restart(); exit; }
+global.roomid = room;
 
 if !global.movement { exit; }
 

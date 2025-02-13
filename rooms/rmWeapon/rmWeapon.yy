@@ -15,6 +15,7 @@
     {"name":"inst_765FCA45","path":"rooms/rmWeapon/rmWeapon.yy",},
     {"name":"inst_639F01AF","path":"rooms/rmWeapon/rmWeapon.yy",},
     {"name":"inst_1C069789","path":"rooms/rmWeapon/rmWeapon.yy",},
+    {"name":"inst_6BE33680","path":"rooms/rmWeapon/rmWeapon.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,6 +26,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTutorialDude","path":"objects/objTutorialDude/objTutorialDude.yy",},"propertyId":{"name":"dialogue","path":"objects/objTutorialDude/objTutorialDude.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"What else do you want from me?\\nLook, you can take this spike or whatever.\\nClick the mouse to use it., it breaks webs.",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":329.5,"y":260.0,},
         {"$GMRInstance":"v1","%Name":"inst_765FCA45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_765FCA45","objectId":{"name":"objWeb","path":"objects/objWeb/objWeb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":256.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6BE33680","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BE33680","objectId":{"name":"objWeb","path":"objects/objWeb/objWeb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":480.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Triggers","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_5634CDC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5634CDC9","objectId":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":22.000002,"scaleY":2.0,"x":0.0,"y":320.0,},

@@ -1,4 +1,6 @@
 depth = -9999;
+pauseMovement();
+objPlayer.state = "I";
 
 image_xscale = room_width;
 image_yscale = room_height;

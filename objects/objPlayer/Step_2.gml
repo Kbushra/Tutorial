@@ -1,6 +1,3 @@
-if global.jump { stuck = false; }
-if stuck { vMovement = 0; exit; }
-
 if grounded
 {	
 	if place_free(x, y+2) { y++; }
@@ -27,7 +24,7 @@ if global.jump
 }
 
 if hMovement != 0 && place_free(x+hMovement, y) { x += hMovement; }
-else if state != "J" { state = "I"; }
+else if state != "J" && state != "D" { state = "I"; }
 
 var destSpr = asset_get_index("sprPlayer" + dir + state);
 if sprite_index != destSpr { sprite_index = destSpr; }
