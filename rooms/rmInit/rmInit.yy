@@ -19,8 +19,8 @@
   ],
   "name":"rmInit",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Debug",
+    "path":"folders/Rooms/Debug.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
