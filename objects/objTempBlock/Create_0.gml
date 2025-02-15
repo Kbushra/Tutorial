@@ -1,0 +1,1 @@
+collTimer = 5;

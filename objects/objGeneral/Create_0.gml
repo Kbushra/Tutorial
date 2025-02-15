@@ -1,6 +1,7 @@
 random_get_seed();
 
 global.movement = true;
+global.temp = "";
 
 if !variable_global_exists("respawn")
 {
@@ -9,8 +10,11 @@ if !variable_global_exists("respawn")
 	global.xpos = 80;
 	global.ypos = -96;
 	
+	global.roomid = rmChanger;
+	global.xpos = 192;
+	global.ypos = 261;
+	
 	global.state = 0;
-	global.temp = "";
 }
 
 pauseMovement();

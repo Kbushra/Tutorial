@@ -28,7 +28,7 @@ if global.state > 3
 		}
 	}
 	
-	for (var i = 1; i < 5; i++)
+	for (var i = 1; i < 6; i++)
 	{
 		var laymap = layer_tilemap_get_id(layer_get_id($"Tiles_{i}"));
 		var tilename = tileset_get_name(tilemap_get_tileset(laymap));

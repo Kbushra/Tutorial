@@ -7,7 +7,7 @@ if hitTimer > 0
 	
 	if patience == 2 { draw_text(x+12, y-20, "OW"); }
 	else if patience == 1 { draw_text(x+12, y-20, "HEY"); }
-	else { draw_text(x+12, y-20, "THATS IT"); }
+	else if patience == 0 { draw_text(x+12, y-20, "THATS IT"); }
 	
 	draw_set_halign(fa_left);
 }
