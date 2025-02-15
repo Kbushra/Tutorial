@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objDart",
+  "%Name":"objThermo",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objDart",
+  "name":"objThermo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Objects/Attacks.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprDart",
-    "path":"sprites/sprDart/sprDart.yy",
+    "name":"sprThermo",
+    "path":"sprites/sprThermo/sprThermo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

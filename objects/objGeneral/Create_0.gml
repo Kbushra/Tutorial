@@ -10,6 +10,7 @@ if !variable_global_exists("respawn")
 	global.ypos = -96;
 	
 	global.state = 0;
+	global.temp = "";
 }
 
 pauseMovement();
