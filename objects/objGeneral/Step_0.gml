@@ -11,5 +11,6 @@ var centerClampY = clamp(centerY, 0, room_height - camera_get_view_height(view_c
 
 camera_set_view_pos(view_camera[0], lerp(camX, centerClampX, 0.1), lerp(camY, centerClampY, 0.1));
 
-if instance_exists(objTransition) && !objTransition.fade
-{ camera_set_view_pos(view_camera[0], centerClampX, centerClampY); }
+var transitioning = instance_exists(objTransition) && !objTransition.fade;
+if transitioning || global.respawn == 0
+{ camera_set_view_pos(view_camera[0], centerClampX, centerClampY); global.respawn = 1; }

@@ -1,8 +1,10 @@
 if state == "D"
 {
 	pauseMovement();
+	
 	deathTimer--;
-	if deathTimer <= 0 { game_restart(); }
+	if deathTimer <= 0 && !instance_exists(objCutsceneEnd)
+	{ game_restart(); global.respawn = 0; }
 	
 	exit;
 }
@@ -18,6 +20,8 @@ if global.state > 1 && mouse_check_button_pressed(mb_left) && !instance_exists(o
 
 if global.state > 3
 {
+	if room == rmSun { global.temp = ""; exit; }
+	
 	if keyboard_check_pressed(ord("E"))
 	{
 		switch (global.temp)
@@ -28,7 +32,7 @@ if global.state > 3
 		}
 	}
 	
-	for (var i = 1; i < 6; i++)
+	for (var i = 1; i < 7; i++)
 	{
 		var laymap = layer_tilemap_get_id(layer_get_id($"Tiles_{i}"));
 		var tilename = tileset_get_name(tilemap_get_tileset(laymap));

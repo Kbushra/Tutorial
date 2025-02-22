@@ -1,0 +1,1 @@
+if !instance_exists(objCutsceneEnd) { instance_create_layer(x, y, "Instances", objCutsceneEnd); }

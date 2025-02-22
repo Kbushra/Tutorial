@@ -1,0 +1,1 @@
+draw_sprite_ext(sprWhite, 0, 0, 0, 999, 999, 0, c_white, opacity);

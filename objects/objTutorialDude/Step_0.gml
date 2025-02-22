@@ -3,6 +3,8 @@ if sprite_index != destSpr && !instance_exists(objCutsceneDefeat) { sprite_index
 
 depth = objPlayer.depth+1;
 
+if global.state == 5 { exit; }
+
 if global.state > 2
 {
 	atkTimer--;
